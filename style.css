@@ -1,0 +1,25 @@
+body::before{
+  display: block;
+  content: '';
+  height:60px;
+}
+
+.background-photo{
+  background-size: cover; 
+  background-position: 75% 25%;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url('img/2070.jpg');
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
